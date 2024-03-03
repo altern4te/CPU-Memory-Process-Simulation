@@ -1,0 +1,57 @@
+.0   // Displays text and then multiplies 3 and 4 together.
+1
+0
+14   // CopyToX
+4    // LoadIdxX 32 (load text) 
+36
+21   // JumpIfEqual 12
+12
+9    // Put 2 (output as char)
+2
+25   // IncX
+20   // Jump 3
+3
+1	 // copy 3 to X
+3
+14
+1	 // copy 4 to Y
+4
+16
+1	//load 0 into AC
+0
+27   //initial push
+28	 //initial pop / jump point
+11	// add Y to AC
+26	// Dec X
+27	// Push AC to stack
+15	// Put X in AC
+22	// jump if X != 0
+21
+28	// Pop stack
+9	// Print AC
+1
+1	// new line
+10
+9
+2
+50
+
+77   //"MULTIPLY 3*4"
+85
+76
+84
+73
+80
+76
+89
+32
+51
+42
+52
+10
+
+.1000
+30
+
+.1500
+30
